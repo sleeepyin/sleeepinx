@@ -1,0 +1,36 @@
+title: yinxiaofeng 的博客
+subtitle: 记录、思考与实践
+description: 分享 LLM、工具与日常思考。
+author: yinxiaofeng
+language: zh-CN
+timezone: Asia/Hong_Kong
+url: https://sleeepyin.github.io
+root: /sleeepinx/
+permalink: :year/:month/:day/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+source_dir: source
+public_dir: docs
+theme: landscape
+archive_dir: archives
+category_dir: categories
+tag_dir: tags
+post_asset_folder: false
+
+highlight:
+  enable: true
+  line_number: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+theme_config:
+  menu:
+    首页: /
+    归档: /archives/
+  subtitle: 记录、思考与实践
+  rss: /atom.xml

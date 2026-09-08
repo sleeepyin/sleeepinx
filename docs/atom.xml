@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>yinxiaofeng</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://sleeepyin.github.io/</id>
+  <link href="https://sleeepyin.github.io/" rel="alternate"/>
+  <link href="https://sleeepyin.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, yinxiaofeng</rights>
+  <subtitle>记录、思考与实践</subtitle>
+  <title>yinxiaofeng 的博客</title>
+  <updated>2026-09-08T02:45:36.444Z</updated>
+  <entry>
+    <author>
+      <name>yinxiaofeng</name>
+    </author>
+    <category term="LLM" scheme="https://sleeepyin.github.io/tags/LLM/"/>
+    <content>
+      <![CDATA[<p>这里是记录 LLM 使用、工具探索和日常思考的地方。</p><h2 id="这个博客会写什么"><a href="#这个博客会写什么" class="headerlink" title="这个博客会写什么"></a>这个博客会写什么</h2><ul><li>LLM 的实际使用经验与工作流；</li><li>值得沉淀的工具、方法和踩坑记录；</li><li>不定期的学习笔记与想法。</li></ul><p>希望每一篇文章都足够清晰，也足够方便未来的自己回看。</p>]]>
+    </content>
+    <id>https://sleeepyin.github.io/2026/03/09/%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://sleeepyin.github.io/2026/03/09/%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <published>2026-03-09T10:24:57.000Z</published>
+    <summary>
+      <![CDATA[<p>这里是记录 LLM 使用、工具探索和日常思考的地方。</p>
+<h2 id="这个博客会写什么"><a href="#这个博客会写什么" class="headerlink" title="这个博客会写什么"></a>这个博客会写什么</h2><ul>
+<li>LLM 的实]]>
+    </summary>
+    <title>新的博客</title>
+    <updated>2026-09-08T02:45:36.444Z</updated>
+  </entry>
+</feed>

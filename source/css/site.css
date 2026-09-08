@@ -1,0 +1,86 @@
+/* Project-level refinements layered over the Landscape theme. */
+:root {
+  --accent: #2563eb;
+  --ink: #172033;
+  --muted: #64748b;
+  --surface: #ffffff;
+  --canvas: #f7f9fc;
+}
+
+body,
+#wrap {
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+#header {
+  background: linear-gradient(135deg, #172554, #2563eb 55%, #38bdf8);
+}
+
+#banner {
+  opacity: 0.16;
+}
+
+#logo,
+#subtitle,
+.main-nav-link,
+.nav-icon {
+  text-shadow: none;
+}
+
+#logo {
+  font-weight: 750;
+  letter-spacing: 0.02em;
+}
+
+#subtitle {
+  opacity: 0.88;
+}
+
+.article-inner,
+.archive-article-inner,
+.widget-wrap {
+  border-radius: 10px;
+}
+
+.article-inner,
+.archive-article-inner {
+  border-color: #e5eaf2;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 7%);
+}
+
+.article-title a,
+.archive-article-title a {
+  color: var(--ink);
+}
+
+.article-title a:hover,
+.archive-article-title a:hover,
+.article-entry a {
+  color: var(--accent);
+}
+
+.article-entry {
+  color: #334155;
+  line-height: 1.9;
+}
+
+.article-entry h2,
+.article-entry h3 {
+  color: var(--ink);
+  margin-top: 1.8em;
+}
+
+#footer {
+  color: var(--muted);
+}
+
+@media screen and (max-width: 767px) {
+  .outer {
+    padding: 0 16px;
+  }
+
+  #header-inner {
+    padding: 12px 0;
+  }
+}

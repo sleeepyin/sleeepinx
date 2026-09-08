@@ -1,0 +1,26 @@
+{
+  "name": "sleeepyin.github.io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "yinxiaofeng 的个人博客（Hexo 源码与 GitHub Pages 发布物）",
+  "hexo": {
+    "version": "8.1.2"
+  },
+  "scripts": {
+    "clean": "node ./node_modules/hexo-cli/bin/hexo clean",
+    "build": "node ./node_modules/hexo-cli/bin/hexo clean && node ./node_modules/hexo-cli/bin/hexo generate && node tooling/postbuild.mjs",
+    "dev": "node ./node_modules/hexo-cli/bin/hexo server"
+  },
+  "dependencies": {
+    "hexo": "^8.1.1",
+    "hexo-cli": "^4.3.2",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-theme-landscape": "^0.0.3"
+  }
+}
