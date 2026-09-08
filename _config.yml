@@ -1,7 +1,7 @@
-title: yinxiaofeng 的博客
-subtitle: 记录、思考与实践
-description: 分享 LLM、工具与日常思考。
-author: yinxiaofeng
+title: SleeepinX
+subtitle: SleeepinX
+description: SleeepinX
+author: SleeepinX
 language: zh-CN
 timezone: Asia/Hong_Kong
 url: https://sleeepyin.github.io
@@ -32,5 +32,5 @@ theme_config:
   menu:
     首页: /
     归档: /archives/
-  subtitle: 记录、思考与实践
+  subtitle: SleeepinX
   rss: /atom.xml
